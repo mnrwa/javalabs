@@ -1,4 +1,4 @@
-package ru.bahanov.prac1;
+package ru.bahanov.pracJava.task1;
 
 import java.util.*;
 
