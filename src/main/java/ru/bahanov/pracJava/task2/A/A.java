@@ -92,7 +92,7 @@ public class A {
 
     public void findDublicate(List<Integer>arr){
         Integer result = 0;
-        int minUniqueDigits = Collections.max(arr);
+        int minUniqueDigits = Integer.MAX_VALUE;
 
         for (Integer num : arr) {
             int uniqueDigits = new LinkedHashSet<>(Arrays.asList(Integer.toString(Math.abs(num)).split(""))).size();
