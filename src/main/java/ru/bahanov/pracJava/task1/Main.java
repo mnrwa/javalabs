@@ -166,7 +166,7 @@ public class Main {
             return freqCompare;
         });
 
-        HashSet<Integer> sortedUniqueNumbers = new HashSet<>(numberList);
+        LinkedHashSet<Integer> sortedUniqueNumbers = new LinkedHashSet<>(numberList);
         return sortedUniqueNumbers;
     }
 
