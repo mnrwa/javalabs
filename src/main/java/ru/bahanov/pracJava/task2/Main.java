@@ -63,9 +63,6 @@ public class Main {
     public void C() {
         C task2 = new C();
 
-
-
-        // Задача 1. Упорядочить строки/столбцы по k-му столбцу/строке
         System.out.println("1. Упорядочить строки/столбцы по k-му столбцу/строке");
         task2.generateMatr();
         task2.printMatr();
