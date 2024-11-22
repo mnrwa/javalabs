@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task3/A/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task3/B/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task3/C/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +43,7 @@
     "Application.Point.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.ru.bahanov.pracJava.task1.Main.executor": "Run",
+    "Application.ru.bahanov.pracJava.task3.C.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",

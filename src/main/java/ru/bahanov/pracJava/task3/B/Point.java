@@ -15,7 +15,6 @@ public class Point {
                 '}';
     }
 
-    // Конструктор для 3D точки
     public Point(double x, double y, double z, double time) {
         this.x = x;
         this.y = y;
@@ -29,7 +28,6 @@ public class Point {
         this.accelerationZ = 0;
     }
 
-    // Метод для движения точки в 3D
     public void move(double ax, double ay, double az, double dt) {
         // Обновляем ускорение
         this.accelerationX = ax;
@@ -50,22 +48,18 @@ public class Point {
         this.time += dt;
     }
 
-    // Получаем скорость точки
     public double getSpeed() {
         return Math.sqrt(speedX * speedX + speedY * speedY + speedZ * speedZ);
     }
 
-    // Получаем ускорение точки
     public double getAcceleration() {
         return Math.sqrt(accelerationX * accelerationX + accelerationY * accelerationY + accelerationZ * accelerationZ);
     }
 
-    // Расстояние между двумя точками в 3D
     public static double distance(Point p1, Point p2) {
         return Math.sqrt(Math.pow(p2.x - p1.x, 2) + Math.pow(p2.y - p1.y, 2) + Math.pow(p2.z - p1.z, 2));
     }
 
-    // Проверка возможности пересечения траекторий
     public static boolean canIntersect(Point p1, Point p2) {
         return p1.x == p2.x && p1.y == p2.y && p1.z == p2.z;
     }
@@ -74,9 +68,9 @@ public class Point {
         Point p1 = new Point(0, 0, 0, 0);
         Point p2 = new Point(1, 1, 1, 0);
 
-        p1.move(1, 1, 1, 1);  // Ускорение 1 по всем осям, время 1 секунда
+        p1.move(1, 1, 1, 1);
 
-        p2.move(0, 0, 1, 1);  // Ускорение 0 по X и Y, ускорение 1 по Z
+        p2.move(0, 0, 1, 1);
 
 
         System.out.println("Точка 1: " + p1);
