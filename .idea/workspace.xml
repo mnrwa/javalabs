@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit" />
+    <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/A/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/A/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/A/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/A/StarSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/B/models/Gem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/B/models/PreciousGem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/B/models/SemiPreciousGem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task4/B/services/Necklace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NecklaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StarSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,9 +56,14 @@
     "Application.Main.executor": "Run",
     "Application.Patient.executor": "Run",
     "Application.Point.executor": "Run",
+    "Application.StarsSystem.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.ru.bahanov.pracJava.task1.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task3.C.Main.executor": "Run",
+    "Application.ru.bahanov.pracJava.task4.A.Main.executor": "Run",
+    "Application.ru.bahanov.pracJava.task4.B.Main.executor": "Run",
+    "JUnit.NecklaceTest.executor": "Run",
+    "JUnit.StarSystemTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
