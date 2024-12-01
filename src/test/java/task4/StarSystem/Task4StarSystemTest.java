@@ -1,3 +1,5 @@
+package task4.StarSystem;
+
 import org.junit.jupiter.api.Test;
 import ru.bahanov.pracJava.task4.A.Moon;
 import ru.bahanov.pracJava.task4.A.Planet;
@@ -7,7 +9,7 @@ import ru.bahanov.pracJava.task4.A.StarSystem;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
-public class StarSystemTest {
+public class Task4StarSystemTest {
 
     @Test
     public void testStarCreation() {

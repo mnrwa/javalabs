@@ -1,3 +1,5 @@
+package task4.Necklace;
+
 import org.junit.jupiter.api.Test;
 import ru.bahanov.pracJava.task4.B.models.Gem;
 import ru.bahanov.pracJava.task4.B.models.PreciousGem;
@@ -7,7 +9,7 @@ import ru.bahanov.pracJava.task4.B.services.Necklace;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class NecklaceTest {
+public class Task4NecklaceTest {
 
 
     @Test

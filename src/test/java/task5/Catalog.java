@@ -1,3 +1,5 @@
+package task5;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.bahanov.pracJava.task5.Catalog;
@@ -6,7 +8,7 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CatalogTest {
+class Task5CatalogTest {
 
     private Catalog catalog;
 

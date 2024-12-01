@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit" />
+    <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task6/Task6WagomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task7/Descriminant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task5/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NecklaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task4/Necklace/Task4NecklaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StarSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task4/StarSystem/Task4StarSystemTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +57,11 @@
     "Application.ru.bahanov.pracJava.task4.A.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task4.B.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task6.A.Main.executor": "Run",
+    "Application.ru.bahanov.pracJava.task7.Main.executor": "Run",
     "JUnit.CatalogTest.executor": "Run",
+    "JUnit.DiscriminantCalculatorTest.executor": "Run",
+    "JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation.executor": "Run",
+    "JUnit.FreightWagonTest.executor": "Run",
     "JUnit.NecklaceTest.executor": "Run",
     "JUnit.StarSystemTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,7 +76,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.bahanov.pracJava.task2.Main" />
       <module name="pracJava" />
@@ -78,8 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiscriminantCalculatorTest.testDiscriminantCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pracJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task7" />
+      <option name="MAIN_CLASS_NAME" value="task7.DiscriminantCalculatorTest" />
+      <option name="METHOD_NAME" value="testDiscriminantCalculation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
