@@ -2,7 +2,17 @@ package ru.bahanov.pracJava.task8.B;
 
 import java.util.*;
 
-class B {
+public class B {
+
+    public static String cleanText(String input) {
+        return input.replaceAll("\\s+", " ").trim();
+    }
+
+    public static List<String> sortWords(List<String> words) {
+        words.sort(Comparator.comparing(word -> Character.toLowerCase(word.charAt(0))));
+        return words;
+    }
+
     static class Word {
         String word;
 
@@ -21,9 +31,9 @@ class B {
     }
 
     public static void main(String[] args) {
-        String inputText = "Влюбленность начинается с того, что человек обманывает себя, а кончается тем, что он обманывает другого.";
+        String inputText = "Ни одно доброе дело, каким бы маленьким оно ни было, никогда не бывает напрасным";
 
-        inputText = inputText.replaceAll("\\s+", " ").trim();
+        inputText = cleanText(inputText);
 
         String[] wordsArray = inputText.split("[\\s.,;!?]+");
         List<Word> words = new ArrayList<>();
