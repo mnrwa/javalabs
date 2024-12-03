@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task8/A/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task8/B/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task8/ATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task8/C/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task8/CTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.A.executor": "Run",
+    "Application.B.executor": "Run",
+    "Application.C.executor": "Run",
     "Application.Catalog.executor": "Run",
     "Application.Customer.executor": "Run",
     "Application.House.executor": "Run",
@@ -57,6 +58,8 @@
     "Application.ru.bahanov.pracJava.task6.A.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task7.Main.executor": "Run",
     "JUnit.ATest.executor": "Run",
+    "JUnit.BTest.executor": "Run",
+    "JUnit.CTest.executor": "Run",
     "JUnit.CatalogTest.executor": "Run",
     "JUnit.DiscriminantCalculatorTest.executor": "Run",
     "JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation.executor": "Run",
