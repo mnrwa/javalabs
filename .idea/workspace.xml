@@ -39,50 +39,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A.executor": "Run",
-    "Application.B.executor": "Run",
-    "Application.C.executor": "Run",
-    "Application.Catalog.executor": "Run",
-    "Application.Customer.executor": "Run",
-    "Application.House.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Patient.executor": "Run",
-    "Application.Point.executor": "Run",
-    "Application.StarsSystem.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.TextProcessor.executor": "Run",
-    "Application.ru.bahanov.pracJava.task1.Main.executor": "Run",
-    "Application.ru.bahanov.pracJava.task3.C.Main.executor": "Run",
-    "Application.ru.bahanov.pracJava.task4.A.Main.executor": "Run",
-    "Application.ru.bahanov.pracJava.task4.B.Main.executor": "Run",
-    "Application.ru.bahanov.pracJava.task6.A.Main.executor": "Run",
-    "Application.ru.bahanov.pracJava.task7.Main.executor": "Run",
-    "JUnit.ATest.executor": "Run",
-    "JUnit.BTest.executor": "Run",
-    "JUnit.CTest.executor": "Run",
-    "JUnit.CatalogTest.executor": "Run",
-    "JUnit.DiscriminantCalculatorTest.executor": "Run",
-    "JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation.executor": "Run",
-    "JUnit.FreightWagonTest.executor": "Run",
-    "JUnit.NecklaceTest.executor": "Run",
-    "JUnit.StarSystemTest.executor": "Run",
-    "JUnit.Test9.executor": "Run",
-    "JUnit.test9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/prac/prac1/src/main/java/ru/bahanov/pracJava/task5",
-    "last_opened_file_path": "D:/prac/prac1/src/test/java/task9",
-    "onboarding.tips.debug.path": "D:/prac/prac1/src/main/java/ru/bahanov/prac1/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Catalog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Customer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.House.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Patient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Point.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StarsSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextProcessor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.bahanov.pracJava.task1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.bahanov.pracJava.task3.C.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.bahanov.pracJava.task4.A.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.bahanov.pracJava.task4.B.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.bahanov.pracJava.task6.A.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.bahanov.pracJava.task7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ATest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CatalogTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscriminantCalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FreightWagonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NecklaceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StarSystemTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test9.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/prac/prac1/src/main/java/ru/bahanov/pracJava/task5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/prac/prac1/src/test/java/task9&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/prac/prac1/src/main/java/ru/bahanov/prac1/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\prac\prac1\src\test\java\task9" />
@@ -120,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation" />
       </list>
     </recent_temporary>
   </component>

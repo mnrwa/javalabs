@@ -3,7 +3,6 @@ package ru.bahanov.pracJava.task9;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
-import java.util.stream.*;
 
 public class A {
     private static final double MAX_VALUE = Double.MAX_VALUE;
