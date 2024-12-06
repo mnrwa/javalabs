@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/A/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/A/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/B/Gem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/B/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/B/Necklace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/B/NecklaceConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/B/PreciousGem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/B/SemiPreciousGem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/C/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task10/C/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task10/Atest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task10/BTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task11/A/IntegerSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task11/B/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task11/B/ParkingLotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +46,9 @@
     "Application.Catalog.executor": "Run",
     "Application.Customer.executor": "Run",
     "Application.House.executor": "Run",
+    "Application.IntegerSet.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ParkingLot.executor": "Run",
     "Application.Patient.executor": "Run",
     "Application.Point.executor": "Run",
     "Application.StarsSystem.executor": "Run",
