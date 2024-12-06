@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task11/A/IntegerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task11/B/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task11/B/ParkingLotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task12/CashRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task12/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task12/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task12/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task12/RestaurantTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,7 @@
     "Application.TextProcessor.executor": "Run",
     "Application.ru.bahanov.pracJava.task1.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task10.B.Main.executor": "Run",
+    "Application.ru.bahanov.pracJava.task12.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task3.C.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task4.A.Main.executor": "Run",
     "Application.ru.bahanov.pracJava.task4.B.Main.executor": "Run",
@@ -69,7 +72,10 @@
     "JUnit.DiscriminantCalculatorTest.executor": "Run",
     "JUnit.DiscriminantCalculatorTest.testDiscriminantCalculation.executor": "Run",
     "JUnit.FreightWagonTest.executor": "Run",
+    "JUnit.IntegerSetTest.executor": "Run",
     "JUnit.NecklaceTest.executor": "Run",
+    "JUnit.ParkingLotTest.executor": "Run",
+    "JUnit.RestaurantTest.executor": "Run",
     "JUnit.StarSystemTest.executor": "Run",
     "JUnit.Test9.executor": "Run",
     "JUnit.test9.executor": "Run",
