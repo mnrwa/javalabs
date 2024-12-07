@@ -1,0 +1,18 @@
+create table Orders(
+order_id SERIAL primary key,
+order_date date not null
+);
+
+create table Products (
+product_id serial primary key,
+name varchar(100) not null,
+description text,
+price decimal(10,2) not null
+);
+
+create table Order_items(
+order_id int references Orders(order_id) on delete cascade,
+product_id INT REFERENCES Products(product_id) ON DELETE CASCADE,
+quantity INT NOT NULL,
+PRIMARY KEY (order_id, product_id)
+);
