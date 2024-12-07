@@ -49,6 +49,6 @@ public class DBTest {
         }
 
         assertEquals(1, orderIds.size());
-        assertEquals(2, orderIds.get(0)); // Порядок вставки соответствует order_id
+        assertEquals(2, orderIds.get(0));
     }
 }
