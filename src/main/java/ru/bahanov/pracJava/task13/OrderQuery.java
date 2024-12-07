@@ -7,7 +7,7 @@ import java.util.List;
 public class OrderQuery {
 
     public void printOrderDetails(int orderId) {
-        String query = "SELECT o.order_id, o.order_date, p.name, p.price, i.quantity " +
+        String query = "SELECT o.order_id, p.name, p.price, i.quantity " +
                 "FROM Orders o " +
                 "JOIN Order_Items i ON o.order_id = i.order_id " +
                 "JOIN Products p ON i.product_id = p.product_id " +
@@ -20,7 +20,6 @@ public class OrderQuery {
 
             while (rs.next()) {
                 System.out.println("Order ID: " + rs.getInt("order_id"));
-                System.out.println("Order Date: " + rs.getDate("order_date"));
                 System.out.println("Product: " + rs.getString("name"));
                 System.out.println("Price: " + rs.getDouble("price"));
                 System.out.println("Quantity: " + rs.getInt("quantity"));
@@ -52,4 +51,3 @@ public class OrderQuery {
     }
 
 }
-
