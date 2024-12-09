@@ -5,7 +5,7 @@ import java.io.*;
 public class C {
 
     public static void main(String[] args) {
-        String filePath = "D:\\prac\\prac1\\src\\main\\java\\ru\\bahanov\\pracJava\\task10\\C\\data.txt";
+        String filePath = "src/main/java/ru/bahanov/pracJava/task10/C/data.txt";
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
