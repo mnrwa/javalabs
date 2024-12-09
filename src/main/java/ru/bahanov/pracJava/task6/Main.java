@@ -1,7 +1,7 @@
 package ru.bahanov.pracJava.task6;
 
 public class Main {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         ForeightWagon foreightWagon = new ForeightWagon();
 
         foreightWagon.setRegNumber("X12-1");
@@ -35,7 +35,6 @@ public class Main {
         System.out.println("Вместимость пассажиров: " + passengerWagon.getPassengerCapacity());
 
         passengerWagon.load();
-        System.out.println("Статус после обслуживания: " + passengerWagon.getStatus());
+        System.out.println("Статус после загрузки: " + passengerWagon.getStatus());
     }
-
 }

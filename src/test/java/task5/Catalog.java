@@ -37,7 +37,7 @@ class Task5CatalogTest {
 
     @Test
     void testPrintIssue() {
-        catalog.addIssue("Effective Java", "Иван Петров", new Date(), new Date());
+        catalog.addIssue("Java from EPAM", "Баханов Владимир", new Date(), new Date());
 
         catalog.printIssue();
     }
