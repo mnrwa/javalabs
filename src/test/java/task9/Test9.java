@@ -64,7 +64,7 @@ class Test9 {
         ByteArrayOutputStream err = new ByteArrayOutputStream();
         System.setErr(new PrintStream(err));
 
-        processor.main(new String[]{"D:\\prac\\prac1\\src\\main\\java\\ru\\bahanov\\pracJava\\task9\\data.txt"});
+        processor.main(new String[]{"src/test/java/task9/data.txt"});
 
         String errorOutput = err.toString();
         assertTrue(errorOutput.contains("Файл не найден"));

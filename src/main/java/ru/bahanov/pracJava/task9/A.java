@@ -8,7 +8,7 @@ public class A {
     private static final double MAX_VALUE = Double.MAX_VALUE;
 
     public void main(String[] args) {
-        String filePath = "D:\\prac\\prac1\\src\\main\\java\\ru\\bahanov\\pracJava\\task9\\data.txt";
+        String filePath = "src/main/java/ru/bahanov/pracJava/task9/data.txt";
         List<Double> numbers = new ArrayList<>();
 
         try {
