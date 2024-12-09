@@ -14,7 +14,7 @@ public class CTest {
 
     @Test
     void testDataProcessing() throws IOException {
-        String testFilePath = "D:\\prac\\prac1\\src\\main\\java\\ru\\bahanov\\pracJava\\task10\\C\\data.txt";
+        String testFilePath = "src/main/java/ru/bahanov/pracJava/task10/A/data.txt";
 
         FileWriter writer = new FileWriter(testFilePath);
         writer.write("A 123 hello 3.14 x 45.6 world\n");

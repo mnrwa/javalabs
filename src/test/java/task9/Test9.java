@@ -9,7 +9,7 @@ import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Test9 {
-    private static final String TEST_FILE = "D:\\prac\\prac1\\src\\main\\java\\ru\\bahanov\\pracJava\\task9\\data.txt";
+    private static final String TEST_FILE = "src/test/java/task9/data.txt";
     private A processor;
 
     @BeforeEach
@@ -20,7 +20,6 @@ class Test9 {
 
     @AfterEach
     void tearDown() throws IOException {
-        // Удаляем файл после теста
         Files.deleteIfExists(Paths.get(TEST_FILE));
     }
 
