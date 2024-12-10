@@ -24,11 +24,8 @@ public class IntegerSet {
 
     public IntegerSet intersection(IntegerSet other) {
         IntegerSet resultSet = new IntegerSet();
-        for (Integer number : this.set) {
-            if (other.contains(number)) {
-                resultSet.add(number);
-            }
-        }
+        resultSet.set.addAll(this.set);
+        resultSet.set.retainAll(other.set);
         return resultSet;
     }
 

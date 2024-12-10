@@ -2,7 +2,7 @@ package ru.bahanov.pracJava.task8.B;
 
 import java.util.*;
 
-public class B {
+public class WordSorter {
 
     public static String cleanText(String input) {
         return input.replaceAll("\\s+", " ").trim();

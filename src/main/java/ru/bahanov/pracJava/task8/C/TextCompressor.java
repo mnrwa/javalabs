@@ -1,6 +1,6 @@
 package ru.bahanov.pracJava.task8.C;
 
-public class C {
+public class TextCompressor {
     public static String compress(String input) {
         StringBuilder compressed = new StringBuilder();
         int count = 1;

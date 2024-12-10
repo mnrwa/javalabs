@@ -2,7 +2,7 @@ package ru.bahanov.pracJava.task10.C;
 
 import java.io.*;
 
-public class C {
+public class TokenAnalyzer {
 
     public static void main(String[] args) {
         String filePath = "src/main/java/ru/bahanov/pracJava/task10/C/data.txt";

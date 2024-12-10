@@ -6,7 +6,7 @@ import java.util.Scanner;
 Ни одно доброе дело, каким бы маленьким оно ни было, никогда не бывает напрасным
 */
 
-public class A {
+public class TextProcessor  {
 
     public static String processText(String input, char symbol, int position, int choice) {
         if (choice == 0) {

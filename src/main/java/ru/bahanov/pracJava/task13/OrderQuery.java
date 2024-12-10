@@ -12,9 +12,10 @@ public class OrderQuery {
                 "JOIN Order_Items i ON o.order_id = i.order_id " +
                 "JOIN Products p ON i.product_id = p.product_id " +
                 "WHERE o.order_id = ?";
-        try (Connection connection = DBConnection.getConnection();
-             PreparedStatement stmt = connection.prepareStatement(query)) {
 
+        try {
+            Connection connection = DBConnection.getConnection();
+            PreparedStatement stmt = connection.prepareStatement(query);
             stmt.setInt(1, orderId);
             ResultSet rs = stmt.executeQuery();
 
@@ -29,6 +30,7 @@ public class OrderQuery {
             e.printStackTrace();
         }
     }
+
 
 
     public List<Integer> getOrdersContainingProduct(int productId) {

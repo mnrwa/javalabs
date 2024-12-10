@@ -9,7 +9,37 @@ public class DBConnection {
     private static final String USER = "postgres";
     private static final String PASSWORD = "dbpass";
 
-    public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USER, PASSWORD);
+    private static Connection connection = null;
+
+    private DBConnection() {
+    }
+
+    public static Connection getConnection() {
+        if (connection == null) {
+            synchronized (DBConnection.class) {
+                if (connection == null) {
+                    try {
+                        connection = DriverManager.getConnection(URL, USER, PASSWORD);
+                        System.out.println("Соединение с базой данных установлено.");
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                        throw new RuntimeException("Ошибка подключения к базе данных");
+                    }
+                }
+            }
+        }
+        return connection;
+    }
+
+    public static void closeConnection() {
+        if (connection != null) {
+            try {
+                connection.close();
+                System.out.println("Соединение с базой данных закрыто.");
+                connection = null;
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

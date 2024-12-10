@@ -4,7 +4,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-public class A {
+public class FileNumberProcessor {
     private static final double MAX_VALUE = Double.MAX_VALUE;
 
     public void main(String[] args) {

@@ -2,7 +2,7 @@ package ru.bahanov.pracJava.task10.A;
 
 import java.io.*;
 
-public class A {
+public class FileWordCounter {
 
     public static void main(String[] args) {
         String inputFilePath = "src/main/java/ru/bahanov/pracJava/task10/A/data.txt";
