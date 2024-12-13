@@ -1,12 +1,14 @@
 package task10;
 
 import org.junit.jupiter.api.Test;
-import ru.bahanov.pracJava.task10.C.C;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileWriter;
 import java.io.PrintStream;
 import java.io.IOException;
+
+import ru.bahanov.pracJava.task10.C.TokenAnalyzer;
+
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -24,7 +26,7 @@ public class CTest {
         PrintStream originalOut = System.out;
         System.setOut(new PrintStream(baos));
 
-        C.main(new String[]{});
+        TokenAnalyzer.main(new String[]{});
 
         System.setOut(originalOut);
 

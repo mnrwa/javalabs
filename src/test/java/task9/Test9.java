@@ -1,7 +1,7 @@
 package task9;
 
 import org.junit.jupiter.api.*;
-import ru.bahanov.pracJava.task9.A;
+import ru.bahanov.pracJava.task9.FileNumberProcessor;
 
 import java.io.*;
 import java.nio.file.*;
@@ -10,11 +10,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Test9 {
     private static final String TEST_FILE = "src/test/java/task9/data.txt";
-    private A processor;
+    private FileNumberProcessor processor;
 
     @BeforeEach
     void setUp() throws IOException {
-        processor = new A();
+        processor = new FileNumberProcessor();
         Files.deleteIfExists(Paths.get(TEST_FILE));
     }
 
