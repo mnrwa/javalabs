@@ -1,4 +1,4 @@
-package ru.bahanov.pracJava.task14.A;
+package ru.bahanov.pracJava.task14;
 
 import java.io.*;
 import java.net.*;
