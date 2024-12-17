@@ -14,32 +14,14 @@ public class DBConnection {
     private DBConnection() {
     }
 
-    public static Connection getConnection() {
-        if (connection == null) {
+    public static Connection getConnection() throws SQLException {
+        if (connection == null || connection.isClosed()) {
             synchronized (DBConnection.class) {
-                if (connection == null) {
-                    try {
-                        connection = DriverManager.getConnection(URL, USER, PASSWORD);
-                        System.out.println("Соединение с базой данных установлено.");
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                        throw new RuntimeException("Ошибка подключения к базе данных");
-                    }
+                if (connection == null || connection.isClosed()) {
+                    connection = DriverManager.getConnection(URL, USER, PASSWORD);
                 }
             }
         }
         return connection;
-    }
-
-    public static void closeConnection() {
-        if (connection != null) {
-            try {
-                connection.close();
-                System.out.println("Соединение с базой данных закрыто.");
-                connection = null;
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
     }
 }

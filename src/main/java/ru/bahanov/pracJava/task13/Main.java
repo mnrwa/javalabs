@@ -1,26 +1,31 @@
 package ru.bahanov.pracJava.task13;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         OrderQuery queries = new OrderQuery();
-        OrderModification modifications = new OrderModification();
-
-        Connection conn1 = DBConnection.getConnection();
-        Connection conn2 = DBConnection.getConnection();
-
-        System.out.println(conn1 == conn2);
 
         System.out.println("Полная информация о заказе:");
         queries.printOrderDetails(1);
 
-        System.out.println("\nЗаказы с товаром ID 2:");
-        List<Integer> ordersWithProduct = queries.getOrdersContainingProduct(2);
+        List<Integer> ordersWithCriteria = queries.getCrit(10, 2);
+        System.out.println("Номера заказов с заданными условиями: " + ordersWithCriteria);
+
+        System.out.println("\nЗаказы с товаром Мышь:");
+        List<Integer> ordersWithProduct = queries.getOrderCurr("Мышь");
         System.out.println(ordersWithProduct);
 
-        DBConnection.closeConnection();
+        System.out.println("\nЗаказы без товара ID 2 и поступившие 2024-01-02:");
+        List<Integer> ordersExcludingProductToday = queries.getOrderToday(2, Date.valueOf("2024-01-02"));
+        System.out.println(ordersExcludingProductToday);
+
+        System.out.println("\nСоздание нового заказа из сегодняшних товаров:");
+        queries.createNewOrder(Date.valueOf("2024-01-02"));
+
+        System.out.println("\nУдаление заказов количеством 1:");
+        queries.deleteQuan(1);
     }
 }
-

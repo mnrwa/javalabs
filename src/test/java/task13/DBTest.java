@@ -2,53 +2,54 @@ package task13;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import ru.bahanov.pracJava.task13.OrderQuery;
 
-import java.sql.*;
-import java.util.ArrayList;
+import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DBTest {
 
-    private Connection connection;
+    private OrderQuery orderQuery;
 
     @BeforeEach
-    void setUp() throws Exception {
-        String url = "jdbc:postgresql://localhost:5432/javalabs13";
-        String user = "postgres";
-        String password = "dbpass";
-
-        connection = DriverManager.getConnection(url, user, password);
-
-        try (Statement stmt = connection.createStatement()) {
-            stmt.execute("DROP TABLE IF EXISTS Orders CASCADE");
-            stmt.execute("CREATE TABLE Orders (" +
-                    "order_id SERIAL PRIMARY KEY, " +
-                    "amount DOUBLE PRECISION, " +
-                    "item_count INT)");
-
-            stmt.execute("INSERT INTO Orders (amount, item_count) VALUES (400.0, 2)");
-            stmt.execute("INSERT INTO Orders (amount, item_count) VALUES (500.0, 3)");
-        }
+    void setUp() {
+        orderQuery = new OrderQuery();
     }
 
     @Test
-    void testGetOrdersByAmountAndItemCount() throws SQLException {
-        String query = "SELECT order_id FROM Orders WHERE amount <= ? AND item_count = ?";
-        List<Integer> orderIds = new ArrayList<>();
+    void testPrintOrderDetails() {
+        assertDoesNotThrow(() -> orderQuery.printOrderDetails(1));
+    }
 
-        try (PreparedStatement stmt = connection.prepareStatement(query)) {
-            stmt.setDouble(1, 500.0);
-            stmt.setInt(2, 3);
-            ResultSet rs = stmt.executeQuery();
+    @Test
+    void testGetCrit() {
+        List<Integer> orders = orderQuery.getCrit(100.0, 2);
+        assertNotNull(orders);
+    }
 
-            while (rs.next()) {
-                orderIds.add(rs.getInt("order_id"));
-            }
-        }
+    @Test
+    void testGetOrderCurr() {
+        List<Integer> orders = orderQuery.getOrderCurr("Product Name");
+        assertNotNull(orders);
+    }
 
-        assertEquals(1, orderIds.size());
-        assertEquals(2, orderIds.get(0));
+    @Test
+    void testGetOrderToday() {
+        LocalDate today = LocalDate.now();
+        List<Integer> orders = orderQuery.getOrderToday(1, java.sql.Date.valueOf(today));
+        assertNotNull(orders);
+    }
+
+    @Test
+    void testCreateNewOrder() {
+        LocalDate today = LocalDate.now();
+        assertDoesNotThrow(() -> orderQuery.createNewOrder(java.sql.Date.valueOf(today)));
+    }
+
+    @Test
+    void testDeleteQuan() {
+        assertDoesNotThrow(() -> orderQuery.deleteQuan(5));
     }
 }
