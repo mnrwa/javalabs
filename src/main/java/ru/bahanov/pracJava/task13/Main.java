@@ -1,6 +1,5 @@
 package ru.bahanov.pracJava.task13;
 
-import java.sql.Connection;
 import java.sql.Date;
 import java.util.List;
 
@@ -9,8 +8,10 @@ public class Main {
         OrderQuery queries = new OrderQuery();
 
         System.out.println("Полная информация о заказе:");
-        queries.printOrderDetails(1);
-
+        List<OrderDetail> orderDetails = queries.getOrderDetails(2);
+        for (OrderDetail detail : orderDetails) {
+            System.out.println(detail);
+        }
         List<Integer> ordersWithCriteria = queries.getCrit(10, 2);
         System.out.println("Номера заказов с заданными условиями: " + ordersWithCriteria);
 
@@ -23,7 +24,7 @@ public class Main {
         System.out.println(ordersExcludingProductToday);
 
         System.out.println("\nСоздание нового заказа из сегодняшних товаров:");
-        queries.createNewOrder(Date.valueOf("2024-01-02"));
+        System.out.println(queries.createNewOrder(Date.valueOf("2024-01-02")));
 
         System.out.println("\nУдаление заказов количеством 1:");
         queries.deleteQuan(1);

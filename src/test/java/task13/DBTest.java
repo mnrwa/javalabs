@@ -3,6 +3,7 @@ package task13;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.bahanov.pracJava.task13.OrderQuery;
+import ru.bahanov.pracJava.task13.OrderDetail;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -19,8 +20,9 @@ public class DBTest {
     }
 
     @Test
-    void testPrintOrderDetails() {
-        assertDoesNotThrow(() -> orderQuery.printOrderDetails(1));
+    void testGetOrderDetails() {
+        List<OrderDetail> orderDetails = orderQuery.getOrderDetails(1);
+        assertNotNull(orderDetails);
     }
 
     @Test

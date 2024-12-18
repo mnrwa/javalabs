@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0271580-30eb-4ec7-a2a8-a2d9aeaed3eb" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/OrderDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/OrderModification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/OrderModification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/OrderQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/OrderQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/createTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/createTables.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/insterIntoTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/bahanov/pracJava/task13/insterIntoTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/task13/DBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task13/DBTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
